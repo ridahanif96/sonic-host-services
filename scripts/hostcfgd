@@ -22,7 +22,7 @@ hostcfg_dir_path = os.path.dirname(hostcfg_file_path)
 sys.path.append(hostcfg_dir_path)
 import ldap
 
-# FILE
+# FILEE
 PAM_AUTH_CONF = "/etc/pam.d/common-auth-sonic"
 PAM_AUTH_CONF_TEMPLATE = "/usr/share/sonic/templates/common-auth-sonic.j2"
 PAM_PASSWORD_CONF = "/etc/pam.d/common-password"
